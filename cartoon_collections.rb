@@ -22,7 +22,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   planeteer_calls.any? do
     |element|
-    if(valid_calls.select[element]!=nil)
+    if(valid_calls.detect(element)!=nil)
       return element
     end
   end
