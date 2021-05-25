@@ -24,6 +24,7 @@ def find_valid_calls(planeteer_calls)
     |element|
     if(valid_calls.select[element]!=nil)
       return element
+    end
   end
   
   return nil
